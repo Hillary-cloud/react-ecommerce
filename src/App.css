@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* you can do the below code or extend font in tailwind.config.js  */
+/* body{
+  font-family: 'Roboto', sans-serif;
+} */
+
+.title{
+ @apply font-semibold text-center text-3xl my-8 capitalize;
+}
